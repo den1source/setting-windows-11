@@ -43,23 +43,23 @@
      ```
      Get-CimInstance -ClassName Win32_DeviceGuard –Namespace root\Microsoft\Windows\DeviceGuard
      ```
-
-11. **Удаляем мусор с помощью [Win11Debloat](https://github.com/Raphire/Win11Debloat).**
-12. **Оптимизация с помощью [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil):**
-    1. **Идем во вкладку TWEAKS, нажимаем на STANDART и снимаем галочки с пункта 3, И ВНИМАНИЕ!:**
-       - **Если у вас ноутбук, то снимаем галочку в пункте 4 и ставим галочку в пункте 5.**
-       - **Если у вас ПК, то наоборот — в пункте 4 ставим галочку, в пункте 5 убираем.**  
-         ![alt text](images/5.png)
-    2. **Настраиваем обновления:**
+2. **Настраиваем обновления:**
        1. Идем в групповые политики в раздел Конфигурация компьютера — Административные шаблоны — Компоненты Windows — Центр обновления Windows — Управление       интерфейсом пользователя. Дважды нажмите по параметру «Настройка автоматического обновления»: 
           ![alt text](images/6.png)
        2. Переключите политику в состояние «Отключено» и примените настройки:  
           ![alt text](images/7.png)
-13. **Удаляем Edge с помощью [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge), скачав `Remove-Edge.exe - Removes Edge only, leaves WebView alone`.**  
+   
+3. **Удаляем мусор с помощью [Win11Debloat](https://github.com/Raphire/Win11Debloat).**
+4. **Оптимизация с помощью [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil):**
+       **Идем во вкладку TWEAKS, нажимаем на STANDART и снимаем галочки с пункта 3, И ВНИМАНИЕ!:**
+       - **Если у вас ноутбук, то снимаем галочку в пункте 4 и ставим галочку в пункте 5.**
+       - **Если у вас ПК, то наоборот — в пункте 4 ставим галочку, в пункте 5 убираем.**  
+         ![alt text](images/5.png)
+5. **Удаляем Edge с помощью [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge), скачав `Remove-Edge.exe - Removes Edge only, leaves WebView alone`.**  
     <u>Удаляем только Edge</u>, WebView не трогаем, он нужен для программ.
-14. **Перезагрузка.**
-15. **Ставим [vcredist](https://github.com/abbodi1406/vcredist).**
-16. **Установка софта.**
+6. **Перезагрузка.**
+7. **Ставим [vcredist](https://github.com/abbodi1406/vcredist).**
+8. **Установка софта.**
 
 
 
