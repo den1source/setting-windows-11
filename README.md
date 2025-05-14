@@ -58,9 +58,11 @@
          ![alt text](images/5.png)
 6. **Удаляем Edge с помощью [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge), скачав `Remove-Edge.exe - Removes Edge only, leaves WebView alone`.**  
     <u>Удаляем только Edge</u>, WebView не трогаем, он нужен для программ.
-7. **Перезагрузка.**
-8. **Ставим [vcredist](https://github.com/abbodi1406/vcredist).**
-9. **Установка софта.**
+7. **Отключаем заплатки** Meltdown and Spectre: [InSpectre](https://www.grc.com/inspectre.htm)
+8. **Перезагрузка.**
+9. **Ставим [vcredist](https://github.com/abbodi1406/vcredist).**
+10. **Установка софта.**
+11. ❗Обязательно❗ вырубаем оверлеи от Nvidia/Amd в настройках, ибо они жрут ресурсы и могут быть статтеры (по крайней мере у меня на AMD)
 
 
 
