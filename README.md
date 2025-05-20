@@ -60,7 +60,7 @@
          ![alt text](images/5.png)
 6. **Удаляем Edge с помощью [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge), скачав `Remove-Edge.exe - Removes Edge only, leaves WebView alone`.**  
     <u>Удаляем только Edge</u>, WebView не трогаем, он нужен для программ.
-7. **Отключаем заплатки** Meltdown and Spectre: [InSpectre](https://www.grc.com/inspectre.htm)
+7. Для процессоров Intel - **Отключаем заплатки** Meltdown and Spectre: [InSpectre](https://www.grc.com/inspectre.htm)
 8. **Перезагрузка.**
 
 
